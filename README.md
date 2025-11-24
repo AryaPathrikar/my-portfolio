@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Arya Pathrikar — Portfolio
 
-## Getting Started
+A modern, responsive, and animated personal portfolio showcasing my work across **AI/ML, Full-Stack Engineering, Cloud, and Research**. Designed to highlight my best projects, experience, publications, and skills in a clean, professional interface optimized for recruiters and engineers.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+* Sleek, responsive UI with smooth transitions
+
+* Scroll-triggered reveal animations for sections
+
+* Interactive skills section with dynamic proficiency indicators
+
+* Organized projects with detailed breakdowns
+
+* Dedicated sections for **experience, research, publications, and contact**
+
+* Clean dark-mode design with soft gradients
+
+* Performance-optimized for fast load times
+
+---
+
+## 🛠️ Tech Stack
+
+* **Next.js 16** - React framework with App Router
+* **React 19** - UI library
+* **TypeScript** - Type safety and better developer experience
+* **TailwindCSS** - Utility-first CSS framework
+* **Custom SVG tech icons** - CDN-based skill logos
+* **Custom hooks** - Scroll reveal animations
+* **Framer Motion** - Animation library
+* **Node.js** - Runtime environment (API integrations)
+* **Vercel** - Hosting and deployment
+* **GitHub** - Version control and project management
+
+---
+
+## 📁 Project Structure
+
+```
+next.js-portfolio/
+├── app/
+│   ├── layout.tsx          # Root layout with metadata
+│   ├── page.tsx            # Main page with all sections
+│   ├── globals.css         # Global styles
+│   └── icon.svg            # Favicon
+├── components/
+│   ├── sections/
+│   │   ├── HeroSection.tsx
+│   │   ├── AboutSection.tsx
+│   │   ├── EducationSection.tsx
+│   │   ├── ExperienceSection.tsx
+│   │   ├── ProjectsSection.tsx
+│   │   ├── SkillsSection.tsx
+│   │   └── CertificationsSection.tsx
+│   ├── Navbar.tsx          # Navigation component
+│   ├── Footer.tsx          # Footer component
+│   └── TypingAnimation.tsx # Typing animation component
+├── data/
+│   └── portfolio.ts        # All portfolio data (experiences, projects, skills, etc.)
+├── hooks/
+│   └── useScrollReveal.ts  # Custom hook for scroll animations
+├── public/                 # Static assets (images, etc.)
+├── package.json
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run locally:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build for production:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+npm start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📸 Preview (Optional)
 
-To learn more about Next.js, take a look at the following resources:
+*Add screenshots of your hero section, skills section, and projects here. I can help generate them if you want.*
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 License
 
-## Deploy on Vercel
+This portfolio is open-source under the MIT License.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Feel free to fork and customize.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
